@@ -2,13 +2,13 @@
 layout: post
 title:  "Can I teach my computer to do some research for me?"
 date:   2018-06-25 11:52:15 +0200
-categories: TUDelft events research
+author: Susan Branchett
 ---
 **This is the question that brought 80 scientific researchers together for a hands-on Deep Learning Workshop.**
 
-![Neural Network]({{ "/_assets/2018-06-25-neural-network.pdf" | absolute_url }})
-
 Deep learning is a type of machine learning that trains a computer to perform human-like tasks, such as making predictions, recognising speech and images. With the buzz around artificial intelligence, there’s increasing interest in this subject and what it can offer researchers.
+
+![Neural Network]({{ "/assets/2018-06-25-neural-network.png" | absolute_url }})
 
 # The Workshop
 The first part of the workshop covered the basic theory of Deep Learning. TU Delft’s [Dr. Jan van Gemert](https://www.tudelft.nl/en/eemcs/current/humans-of-eemcs/jan-van-gemert/) explained the differences between Deep Learning and other types of Machine Learning. He introduced the concept of a ‘feed-forward’ network and worked through the algebra to train a network to produce the correct result for a simple problem (an exclusive-or gate). He then introduced the convolutional network and explained how it can be used to solve image recognition problems, the topic of his own research. Jan has an ‘active learning’ style and the participants took full advantage of the chance to ask questions.
@@ -16,14 +16,14 @@ The first part of the workshop covered the basic theory of Deep Learning. TU Del
 
 For the second part of the workshop [Osman Kayhan](https://www.tudelft.nl/en/eemcs/the-faculty/departments/intelligent-systems/pattern-recognition-bioinformatics/pattern-recognition-bioinformatics-computer-vision-lab/people/osman-semih-kayhan/) and [Paul van Gent](https://www.tudelft.nl/en/ceg/about-faculty/departments/transport-planning/staff/personal-pages/gent-p-van/) prepared hands-on examples for the participants to experiment with their own feed-forward networks and to give them practice with convolutional networks. The participants had come well prepared. They all had at least a basic knowledge of Python, NumPy and Jupyter Notebooks. They had also pre-installed the required software (Python, Jupyter Notebooks, TensorFlow and Keras, using Anaconda). This meant that Osman and Paul could spend more of their time helping the participants to understand the Deep Learning concepts.
 
-![Participants]({{ "/_assets/2019-06-25-participants.jpg" | absolute_url }})
+![Participants]({{ "/assets/2018-06-25-participants.jpg" | absolute_url }})
 
 # So how did this workshop come about?
 The Innovation Department of TU Delft central ICT Department was set up to support our academic staff in their primary processes of scientific research and education. The workshop was an activity the department organised as an experiment, to see if researcher would appreciate support with Deep Learning. 
 
 The answer was a definite: YES! The workshop had a maximum capacity of 80 participants and registration had to be closed within 24 hours of the initial announcement.
 
-![Full]({{ "/_assets/2019-06-25-full.jpg" | absolute_url }})
+![Full]({{ "/assets/2018-06-25-full.jpg" | absolute_url }})
 
 When asking participants for ideas on how the department could support them in the future, their ideas included: programming language courses (Python, C++, Arduino, etc.), coding helpdesk, machine learning course, more in depth deep learning course, more targeted seminars per faculty, course on time series analysis, GPU computing, cloud computing, build a GPU cloud, ...
 
@@ -41,16 +41,15 @@ If you’d like to enrol for upcoming workshops, please consult the ‘Upcoming 
 # About the Author
 Susan Branchett is Expert Research Data Innovation in the ICT-Innovation department of the TU Delft. She has a Ph.D. in physics and many years’ experience in software development and IT.
 
-TU Delft:	<https://www.tudelft.nl/staff/s.e.branchett/>
-
-LinkedIn:	<https://nl.linkedin.com/in/susan-branchett-a019356>
-
-Twitter:	<https://twitter.com/sebranchett>
+Find her at 
+[TU Delft](https://www.tudelft.nl/staff/s.e.branchett/) or
+[LinkedIn](https://nl.linkedin.com/in/susan-branchett-a019356) or
+[Twitter](https://twitter.com/sebranchett).
 
 This blog expresses the views of the author.
 
 # Acknowledgements
-The author wishes to thank her colleague [Julie Beardsell](https://www.tudelft.nl/staff/j.a.beardsell/) for editing this blog and adding the introductory paragraph.
+Thank you to colleague [Julie Beardsell](https://www.tudelft.nl/staff/j.a.beardsell/) for editing this blog and adding the introductory paragraph.
 
 The header image is from: <http://www.texample.net/tikz/examples/neural-network/> and is used under the [Creative Commons Attribution 2.5 international license](https://creativecommons.org/licenses/by/2.5/).
 
