@@ -19,7 +19,7 @@ For the second part of the workshop [Osman Kayhan](https://www.tudelft.nl/en/eem
 ![Participants]({{ "/assets/2018-06-25-participants.jpg" | absolute_url }})
 
 # So how did this workshop come about?
-The Innovation Department of TU Delft central ICT Department was set up to support our academic staff in their primary processes of scientific research and education. The workshop was an activity the department organised as an experiment, to see if researcher would appreciate support with Deep Learning. 
+The Innovation Department of TU Delft central ICT Department was set up to support our academic staff in their primary processes of scientific research and education. The workshop was an activity the department organised as an experiment, to see if researchers would appreciate support with Deep Learning. 
 
 The answer was a definite: YES! The workshop had a maximum capacity of 80 participants and registration had to be closed within 24 hours of the initial announcement.
 
@@ -36,7 +36,7 @@ If you’re interested in the subject of Deep Learning, you might like the free 
 
 If you’re in Delft, you could also consider signing up for the Jan’s Masters course: <http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=45093>
 
-If you’d like to enrol for upcoming workshops, please consult the ‘Upcoming events’ section of our website (under construction): <https://www.tudelft.nl/ict-innovation/>
+If you’d like to enrol for upcoming workshops, please consult the ‘Upcoming events’ section of our website: <https://www.tudelft.nl/ict-innovation/>
 
 # About the Author
 Susan Branchett is Expert Research Data Innovation in the ICT-Innovation department of the TU Delft. She has a Ph.D. in physics and many years’ experience in software development and IT.
@@ -51,7 +51,7 @@ This blog expresses the views of the author.
 # Acknowledgements
 Thank you to colleague [Julie Beardsell](https://www.tudelft.nl/staff/j.a.beardsell/) for editing this blog and adding the introductory paragraph.
 
-The header image is from: <http://www.texample.net/tikz/examples/neural-network/> and is used under the [Creative Commons Attribution 2.5 international license](https://creativecommons.org/licenses/by/2.5/).
+The neural network image is from: <http://www.texample.net/tikz/examples/neural-network/> and is used under the [Creative Commons Attribution 2.5 international license](https://creativecommons.org/licenses/by/2.5/).
 
 The pie-chart was created using Google forms.
 
