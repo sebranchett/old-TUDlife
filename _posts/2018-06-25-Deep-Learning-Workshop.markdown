@@ -43,7 +43,7 @@ Susan Branchett is Expert Research Data Innovation in the ICT-Innovation departm
 
 Find her at 
 [TU Delft](https://www.tudelft.nl/staff/s.e.branchett/) or
-[LinkedIn](https://nl.linkedin.com/in/susan-branchett-a019356) or
+[LinkedIn](https://linkedin.com/in/sebranchett) or
 [Twitter](https://twitter.com/sebranchett).
 
 This blog expresses the views of the author.
