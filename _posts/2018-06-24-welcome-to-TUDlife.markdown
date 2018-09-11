@@ -8,4 +8,4 @@ Here you can find blog posts about life in the ICT-innovation department of the
 [Delft University of Technology](https://www.tudelft.nl/en/)
 
 
-This website is hosted at <https://sbranchett.github.io/TUDlife>
+This website is hosted at <https://sebranchett.github.io/TUDlife>
