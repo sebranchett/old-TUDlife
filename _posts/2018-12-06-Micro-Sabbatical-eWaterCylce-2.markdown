@@ -31,9 +31,9 @@ eWaterCylce II aims to understand water movement on a global scale in order to p
 
 Hydrologists are encouraged to use their own local models within a global hydrological model.
 
-In order to test whether their model is working properly, the project team is developing a Python Jupyter notebook that makes it easy for hydrologists to produce the graphs and statistics that they are familiar with.
+In order to test whether their model is working properly, the project team is developing a Python [Jupyter notebook](https://jupyter.org/) that makes it easy for hydrologists to produce the graphs and statistics that they are familiar with.
 
-During my micro-sabbatical, I am contributing to the development of this Jupyter notebook.
+During my micro-sabbatical, I am contributing to the development of this [Jupyter notebook](https://github.com/eWaterCycle/hydro-analyses/blob/master/eosc_pilot/forecast_ensemble_analyses.ipynb).
 
 # What did I learn?
 * Wi-Fi is an essential service for researchers and needs to be reliable
