@@ -45,10 +45,12 @@ During my micro-sabbatical, I am contributing to the development of this [Jupyte
 
 ![TU Delft light bulb]({{ "/assets/2018-12-10-TU-Delft-light-bulb.jpg" | absolute_url }})
 
+I shall be using these insights to guide my work within the ICT-Innovation department and to feed our conversations with the Shared Service Center.
+
 # What next?
 From 1st April 2019 I’ll be moving on to my next micro-sabbatical at the Chemical Engineering department of the Applied Sciences faculty. There I shall be installing molecular simulation software on a computer cluster and getting it up and running.
 
-In October 2019 I shall be available for the next micro-sabbatical. My ambition is to cover all 8 faculties of the TU Delft within 4 years. If you have any suggestions, please do not hesitate to get in touch.
+My ambition is to cover all 8 faculties of the TU Delft within 4 years. In October 2019 I shall be available for the next micro-sabbatical. If you have any suggestions, please do not hesitate to get in touch.
 
 # About the Author
 Susan Branchett is Expert Research Data Innovation in the ICT-Innovation department of the TU Delft. She has a Ph.D. in physics and many years’ experience in software development and IT.
