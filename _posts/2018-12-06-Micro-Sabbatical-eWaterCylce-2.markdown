@@ -4,7 +4,7 @@ title:  "Using Jupyter to study Earth"
 date:   2018-12-06 11:52:15 +0200
 author: Susan Branchett
 ---
-**How TU Delft’s ICT-Innovation department is providing hands-on help to researches in order to understand their IT requirements better.**
+**How TU Delft’s ICT-Innovation department is providing hands-on help to researchers in order to understand their IT requirements better.**
 
 ![Jupiter]({{ "/assets/2018-12-10-thelatestfrom-jupiter.jpg" | absolute_url }})
 
