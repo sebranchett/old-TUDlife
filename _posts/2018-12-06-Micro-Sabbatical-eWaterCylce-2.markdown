@@ -25,7 +25,7 @@ This seemed especially relevant to our ICT-Innovation department. We are continu
 Since October 2018 I’ve been spending one day a week in the group of [Prof.dr.ir. Nick van de Giesen](https://www.tudelft.nl/en/staff/n.c.vandegiesen/) and [Dr.ir. Rolf Hut](https://www.tudelft.nl/en/staff/r.w.hut/), working with their bright, new Ph.D. student, Jerom Aerts, on the eWaterCycle II project.
 
 # What’s it about?
-eWaterCylce II aims to understand water movement on a global scale in order to predict floods, droughts and the effect of land use on water. You can read more about it here <https://www.ewatercycle.org/> or here <https://www.esciencecenter.nl/project/ewatercycle>.
+eWaterCylce II aims to understand water movement on a global scale in order to predict floods, droughts and the effect of land use on water. You can read more about it here <https://www.ewatercycle.org/> or here <https://www.esciencecenter.nl/project/ewatercycle-ii>.
 
 ![Sacramento River Delta]({{ "/assets/2018-12-10-Islands_Sacramento_River_Delta_California.jpg" | absolute_url }})
 
