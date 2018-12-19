@@ -39,7 +39,7 @@ During my micro-sabbatical, I am contributing to the development of this [Jupyte
 * Wi-Fi is an essential service for researchers and needs to be reliable
 * Standard TU Delft laptops are not adequate for research
 * Data for this project is hosted in Poland due to the collaboration with many partners and funding from [EOSC](https://ec.europa.eu/research/openscience/index.cfm?pg=open-science-cloud)
-* The minimum viable product for the global hydrology model currently runs on AWS because AWS is quick to set up and it works in all the countries involved
+* The team initially hosted their forecasting site on AWS, because AWS is quick to set up and it works in all the countries involved. For the minimum viable product of the global hydrology model they moved to the [SURFsara HPC Cloud](https://userinfo.surfsara.nl/systems/hpc-cloud)
 * If data is not open, then researchers are hesitant to use it. Their work can’t be reproduced easily, leading to fewer quality checks and less publicity
 * In the face of bureaucracy, cramped conditions and an ever growing number of extra required activities, our researchers’ determination and passion for their field of expertise is truly magnificent
 
