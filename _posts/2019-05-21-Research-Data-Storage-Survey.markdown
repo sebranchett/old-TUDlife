@@ -11,6 +11,8 @@ On the 21st May 2019, the TU Delft Data Champions held their second meeting. I w
 You can read all about the Data Champions meeting, and find my presentation, in this [blog post](https://openworking.wordpress.com/2019/07/03/the-second-tu-delft-data-champions-meeting/)
 by Esther Plomp, Maria Cruz, Marta Teperek, Santosh Ilamparuthi and Yasemin Turkyilmaz-van der Velden.
 
+The results are also publically available on [GitHub](https://github.com/sebranchett/2019-Survey-Data-Storage-Requirements).
+
 # About the Author
 Susan Branchett is Expert Research Data Innovation in the ICT-Innovation department of the TU Delft. She has a Ph.D. in physics and many years’ experience in software development and IT.
 Find her at 
