@@ -4,7 +4,6 @@ title:  "Helping Researchers do IT"
 date:   2019-08-29 00:00:00 +0100
 author: Susan Branchett
 ---
-**Helping researchers do IT.**
 
 ![Inside Susan's head]({{ "/assets/2019-08-29-cc-sb-illustration.png" | absolute_url }})
 
