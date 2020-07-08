@@ -25,9 +25,7 @@ To access some of the links, you may have to log in with your TU Delft NetID.
 
 *Do you have the kind of prickly problem we like to sink our teeth into?*
 
-Each faculty has its own Faculty IT Manager (FIM). You can find your FIM here:
-
-[intranet.tudelft.nl/en/-/faculty-it-manager](https://intranet.tudelft.nl/en/-/faculty-it-manager) (log into intranet.tudelft.nl first and then copy/paste this link) If you need to discuss your IT requirements, your FIM is your first point of contact.
+Each faculty has its own Faculty IT Manager (FIM). You can find your FIM [here](https://intranet.tudelft.nl/en/-/faculty-it-manager) (log into intranet.tudelft.nl first and then click on the 'here' link). If you need to discuss your IT requirements, your FIM is your first point of contact.
 
 Is your problem more data related? Each faculty has a Data Steward. You can find your Data Steward [here](https://www.tudelft.nl/en/library/current-topics/research-data-management/r/support/data-stewardship/contact/).
 
