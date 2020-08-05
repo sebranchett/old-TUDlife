@@ -58,7 +58,7 @@ Now I was left with the question: when shouldn’t you invest your time in makin
 # When you know it shouldn’t work
 Parallel computing doesn’t work well for inherently sequential problems, but what does that mean?
 
-I decided to simulate an experiment that takes measurements at regular intervals and writes them to log files. These log files then have to be analysed. The fact that the log files are produced sequentially makes it impossible to process them all in parallel, hence this is an inherently sequential problem.
+I decided to simulate an experiment that takes measurements at regular intervals and writes them to log files. These log files then have to be analysed. The fact that the log files are produced sequentially makes it impossible to process them all in parallel, in real time, hence this is an inherently sequential problem.
 
 My simulation consists of measuring the temperature of the manager Raspberry Pi (using the `vcgencmd` command), writing the time and the temperature to a log file and then waiting for 5 seconds before taking the next measurement.
 
