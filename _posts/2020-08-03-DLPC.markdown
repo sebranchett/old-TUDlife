@@ -21,6 +21,7 @@ DHPC is basically a large number of computers, connected together in a clever wa
 I spent several happy hours following the instructions in this excellent book: “Raspberry Pi Supercomputing and Scientific Programming: MPI4PY, NumPy, and SciPy for Enthusiasts”, by Ashwin Pajankar, ISBN 978-1-4842-2877-7.
 
 Without too much trouble I managed to cobble together a computer cluster from 8 Raspberry Pi 3 model B, a fast ethernet desktop switch, a pile of cables and power supplies, and a role of hook-and-loop fastener. The only aspect I managed to waste a lot of time on was the network. This was due to a faulty cable, my typing mistakes and me not really knowing enough about computer networks.
+Reading the instructions again and again, switching cables and checking the network interface configuration files many, many times, finally paid off.
 
 ![network]({{ "/assets/2020-08-03_networks_maller.jpg" | absolute_url }})
 
