@@ -31,7 +31,7 @@ To make my life easier, I first captured a week of data in a text file. I then c
 
 Not every access point is monitored at the exact same millisecond, so I added up the total number of connections per building, in each five minute interval. I now had a clean dataset to work with.
 
-Before going any further, I set aside 20% of the data, stratified (selected proportionately) over the different buildings. This is the test set, which I’ll use at the end to test how well my models are working. The remaining 80% is my training set. This is what some of it looks like:
+Before going any further, I set aside 20% of the data, stratified (selected proportionately) over the different buildings and randomly selected in the time. This is the test set, which I’ll use at the end to test how well my models are working. The remaining 80% is my training set. This is what some of it looks like:
 
 ![Discover the data]({{ "/assets/2021-06-30_discover_data.png" | absolute_url }})
 
@@ -39,9 +39,9 @@ The data starts on a Friday afternoon and runs for a week. You can see that ther
 
 The top row has data for the Aula and the Library. These two buildings are next to each other in the centre of the campus. At the Library, it looks like people come back to study after their evening meal, whereas the Aula is looking a little neglected.
 
-On the bottom row, there is data from Applied Sciences (AS) South and Aerospace Engineering (AE). Again, two buildings close to each other, this time at the south of the campus. It looks like AE takes weekends very seriously, whilst at AS South they seem to be more afternoon people.
+On the bottom row, there is data from Applied Sciences (AS) South and Aerospace Engineering (AE). Again, two buildings close to each other, this time at the south of the campus. It looks like AE takes weekends very seriously, whilst at AS South they seem to be more afternoon people. Their highest peak is after the lunch dip.
 
-I was wondering why there were so few connections on the Friday afternoon at the start of this one week period, compared to the Friday afternoon at the end. The first Friday was the day after Ascension and was a collective free day. That could explain it.
+I was wondering why there were so few connections on the Friday afternoon at the start of this one week period, compared to the Friday afternoon at the end  of the period. The first Friday was the day after Ascension and was a collective free day. That could explain it.
 
 I’m lead to believe that a person on campus has, on average, more than 2 Wi-Fi connections at a given moment. It’s also important to note that some connections are from devices, not associated with an individual. The number of connections doesn’t tell us how many people are in a building, but it does give an indication of how busy the building is.
 
@@ -77,7 +77,7 @@ Now we finally get to train and evaluate Machine Learning models. Following Chap
 * Linear Regression - which models relationships by drawing the best straight line
 * Tree Regression - which creates a kind of decision flowchart to predict a value
 
-I used ‘cross-validation’ to get a feel for how well the 2 models work. You can skip the rest of this paragraph. Cross-validation involves dividing up the training data into batches, setting one batch aside, training the model on the remaining batches and calculating the root mean square error for the set-aside batch, thus validating the model. Cross-validation then cycles onto the next batch, until each of the batches has been used for validation. Géron explains it better.
+I used ‘cross-validation’ to get a feel for how well the 2 models work. You can skip the rest of this paragraph, if it’s too confusing. Cross-validation involves dividing up the training data into batches, setting one batch aside, training the model on the remaining batches and calculating the root mean square error for the set-aside batch, thus validating the model. Cross-validation then cycles onto the next batch, until each of the batches has been used for validation. Géron explains it better.
 
 For Linear Regression, the average error was 99 connections. To be more precise the mean root mean square error was 99, with a standard deviation of 3.5.
 
@@ -99,7 +99,7 @@ The best way to reduce overfitting is to add more data, so I collected 3 more we
 
 ![Aula four weeks]({{ "/assets/2021-06-30_Aula_four_weeks.png" | absolute_url }})
 
-Okay, that’s not looking bad. The weekly and daily patterns, and peak number of connections are looking quite good for the Decision Tree Regression model. There is a slightly increasing trend, which could be real, as COVID restrictions are being eased. On the other hand, it could be a result of the collective free day and Whit-Monday leading to more holidays in the first half of the data collection period.
+Okay, that’s not looking bad. The weekly and daily patterns, and peak number of connections are looking quite good for the Decision Tree Regression model. If you look carefully at the bottom of the Linear Regression plot, there is a slightly increasing trend. This could be real, as COVID restrictions are being eased. On the other hand, it could be a result of the collective free day and Whit-Monday leading to more holidays in the first half of the data collection period.
 
 …and what happened in the Aula on the 3rd June?
 
@@ -113,7 +113,7 @@ Using the best combination of extra attributes for the Decision Tree Regression 
 
 ![Best model]({{ "/assets/2021-06-30_best_model.png" | absolute_url }})
 
-I can now return to the test set, the 20% I set aside at the beginning. Evaluating my best model on this test set, I get an average error of slightly more than 7 connections. Given that the number of connections varies between zero and a few hundred, I’m quite pleased with that.
+I can now return to the test set, the 20% I set aside at the beginning. Evaluating my best model on the data points in this test set, I get an average error of slightly more than 7 connections. Given that the number of connections varies between zero and a few hundred, I’m quite pleased with that.
 
 I like the way the model sees a difference between weekdays and the weekend and didn’t get confused by Whit-Monday. I’m also pleased that the model predicts a lunch dip for all 4 buildings shown, but only the Library has an after dinner peak.
 
