@@ -14,7 +14,7 @@ At the TU Delft [ICT Innovation department](https://www.tudelft.nl/ict-innovatio
 
 Machine Learning is one of the most popular forms of AI, so I decided to start there. For Machine Learning to work well, you need lots of data.
 
-In June 2021, my colleague [Lolke Boonstra](https://www.tudelft.nl/staff/l.boonstra) and David Šálek from SURF, launched the TU Delft ICT data platform. This is a streaming data platform that streams campus Wi-Fi connection data. As a contributor to this project, I have access.
+In June 2021, my colleague [Lolke Boonstra](https://www.tudelft.nl/staff/l.boonstra) and David Šálek from SURF, launched the TU Delft ICT data platform. This is a streaming data platform that streams anonymised campus Wi-Fi connection data. As a contributor to this project, I have access.
 
 This blog documents my first steps in Machine Learning. I follow Chapter 2 of ‘Hands-On Machine Learning with Scikit-Learn, Keras & TensorFLow’ by Aurélien Géron ([accessible here](https://learning-oreilly-com.tudelft.idm.oclc.org/library/view/hands-on-machine-learning/9781492032632/) for TU Delft staff). I use campus Wi-Fi connection data from the ICT data platform. My goal is to predict how busy a building on campus will be, at a given date and time.
 
@@ -122,7 +122,7 @@ My biggest hope is that by September 2021, this model will be completely useless
 # Lessons learned
 * Géron’s book is a great way to get your hands dirty with Machine Learning
 * I still have a lot to learn
-* The ICT data platform is a really interesting, real-time source of campus data. I did not do it justice in this blog
+* The ICT data platform is a really interesting, real-time, anonymised source of campus data. I did not do it justice in this blog
 * This is not the way you should do machine learning on time-series data. There is a whole section on this in Chapter 15, but I haven’t got that far yet
 * Even with limited knowledge, simplified data and basic Machine Learning models, you can make a feasible looking prediction of how busy a building is going to be
 
