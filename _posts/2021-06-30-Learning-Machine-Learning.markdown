@@ -16,7 +16,7 @@ Machine Learning is one of the most popular forms of AI, so I decided to start t
 
 In June 2021, my colleague [Lolke Boonstra](https://www.tudelft.nl/staff/l.boonstra) and David Šálek from SURF, launched the TU Delft ICT data platform. This is a streaming data platform that streams anonymised campus Wi-Fi connection data. As a contributor to this project, I have access.
 
-This blog documents my first steps in Machine Learning. I follow Chapter 2 of ‘Hands-On Machine Learning with Scikit-Learn, Keras & TensorFLow’ by Aurélien Géron ([accessible here](https://learning-oreilly-com.tudelft.idm.oclc.org/library/view/hands-on-machine-learning/9781492032632/) for TU Delft staff). I use campus Wi-Fi connection data from the ICT data platform. My goal is to predict how busy a building on campus will be, at a given date and time.
+This blog documents my first steps in Machine Learning. I follow Chapter 2 of ‘Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow’ by Aurélien Géron ([accessible here](https://learning-oreilly-com.tudelft.idm.oclc.org/library/view/hands-on-machine-learning/9781492032632/) for TU Delft staff). I use campus Wi-Fi connection data from the ICT data platform. My goal is to predict how busy a building on campus will be, at a given date and time.
 
 # Discover the Data
 The first step is to discover the data. Each building on campus has several Wi-Fi access points. The IT department monitors these access points every 5 minutes to make sure everything is working properly. The ICT data platform collects this data and live-streams it.
