@@ -121,7 +121,7 @@ My biggest hope is that by September 2021, this model will be completely useless
 
 # Lessons learned
 * Géron’s book is a great way to get your hands dirty with Machine Learning
-* I still have a lot to learn
+* I still have a lot to learn. It took me around 7 days over the past six weeks to get to this point. Running the models only takes a few minutes
 * The ICT data platform is a really interesting, real-time, anonymised source of campus data. I did not do it justice in this blog
 * This is not the way you should do machine learning on time-series data. There is a whole section on this in Chapter 15, but I haven’t got that far yet
 * Even with limited knowledge, simplified data and basic Machine Learning models, you can make a feasible looking prediction of how busy a building is going to be
