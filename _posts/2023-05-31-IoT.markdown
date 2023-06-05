@@ -11,7 +11,7 @@ author: Susan Branchett
 # How it came about
 I’ve been fascinated by the Internet of Things (IoT) for some time now, but have always wondered how much of it is hype and how it works in practice.
 
-In May 2023, two useful problems occurred in the same week. Firstly, the [TU Delft](https://www.tudelft.nl/en/) [Cloud4Research](https://tu-delft-ict-innovation.github.io/Cloud4Research/) team were organising an [‘IoT services through Cloud4Research’ event](https://www.eventbrite.nl/e/iot-services-through-cloud4research-tickets-624213448227), together with [AWS]( https://aws.amazon.com/). The AWS team wanted to give a live demo using a low cost camera. They needed a way to connect the camera to the internet while on the TU Delft campus.
+In May 2023, two useful problems occurred in the same week. Firstly, the [TU Delft](https://www.tudelft.nl/en/) [Cloud4Research](https://tu-delft-ict-innovation.github.io/Cloud4Research/) team were organising an [‘IoT services through Cloud4Research’ event](https://www.eventbrite.nl/e/iot-services-through-cloud4research-tickets-624213448227) for 13 June 2023, together with [AWS]( https://aws.amazon.com/). The AWS team wanted to give a live demo using a low cost camera. They needed a way to connect the camera to the internet while on the TU Delft campus.
 
 The second useful problem was a power outage at the south of the TU Delft campus. In one of the Chemical Engineering labs, a moving mirror is used to control a laser experiment. When the power stopped, the mirror stopped moving. When the power resumed, unfortunately, the mirror didn’t start moving again. After some tweaking, they got it working, but it was a bit unreliable for a while. Wouldn’t it be nice if you could keep an eye on the mirror when you’re not in the lab?
 
@@ -74,7 +74,6 @@ To ensure you are talking to the real SURFdrive, you will also need the HTTPs ce
 
 * It’s possible to connect an IoT device to a Wi-Fi network at the TU Delft campus, without misusing your NetId – so please don’t misuse your NetId
 * It’s possible to send data directly from an IoT device to a secure cloud solution, such as SURFdrive or SURF’s Research Drive
-* If you upload a photo every minute, a 9V battery only lasts a couple of hours. Using an adapted phone charger works well
 * There are a million ways to waste an afternoon!
 
 If you would like to reuse my solution, you can find it [here]( https://github.com/sebranchett/ESP32_photo_HttpsClient). You’ll have to check the `rootCACertificate`, add the Wi-Fi `ssid` and `password`, add the SURFdrive `username` and `token`, and check the paths (`webdavUrl`, `hostname`, `serverPath`).
@@ -83,6 +82,7 @@ If you would like to reuse my solution, you can find it [here]( https://github.c
 
 * Get a more robust enclosure. [Thingiverse](https://www.thingiverse.com/search?q=esp32-cam&page=1&type=things&sort=relevant) has some nice examples to 3D print
 * Find a way to ensure that people don’t get accidentally photographed
+* Work on energy efficiency. If I upload a photo every minute, a 9V battery only lasts a couple of hours. My temporary fix was to use an adapted phone charger
 * Find a way to alert a researcher automatically when the experiment isn’t going the way it should. I’m hoping the [‘IoT services through Cloud4Research’ event](https://www.eventbrite.nl/e/iot-services-through-cloud4research-tickets-624213448227) will provide some inspiration for this
 
 # Last, but not least
