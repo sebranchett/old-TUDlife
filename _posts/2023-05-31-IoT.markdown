@@ -15,7 +15,7 @@ In May 2023, two useful problems occurred in the same week. Firstly, the [TU Del
 
 The second useful problem was a power outage at the south of the TU Delft campus. In one of the Chemical Engineering labs, a moving mirror is used to control a laser experiment. When the power stopped, the mirror stopped moving. When the power resumed, unfortunately, the mirror didn’t start moving again. After some tweaking, they got it working, but it was a bit unreliable for a while. Wouldn’t it be nice if you could keep an eye on the mirror when you’re not in the lab?
 
-I decided to investigate a way to solve these two problems.
+I decided to investigate.
 
 # Hardware
 
@@ -35,11 +35,11 @@ Some things I wished I’d known in advance:
 
 # Network
 
-If you connect a new device to the Wi-Fi at home, you need the SSID, or name of your Wi-Fi network, and a long and difficult to remember password.
+If you connect a new device to the Wi-Fi at home, you need the SSID, or name of your Wi-Fi network, and a long and difficult to remember key, or password.
 
 At the TU Delft Campus, you use your NetID to connect your laptop or phone to the Wi-Fi.
 
-Most IoT devices, like the ESP32-CAM, connect using an SSID and password, which can cause problems on campus.
+Most IoT devices, like the ESP32-CAM, connect using an SSID and key, which can cause problems on campus.
 
 Fortunately, there are two helpful services provided by the TU Delft IT department. The first gives you a licence which allows you to attach up to three devices.
 
@@ -50,9 +50,9 @@ I sent an email to my [Service Desk](https://www.tudelft.nl/en/student/ict/servi
 
 They sent me a manual and a link to register and administer my devices.
 
-To register a device, you need to know it’s [MAC address](https://en.wikipedia.org/wiki/MAC_address). I found mine using [this Random Nerd tutorial](https://randomnerdtutorials.com/get-change-esp32-esp8266-mac-address-arduino/). Each device gets its own password. Only registered MAC addresses can join the network.
+To register a device, you need to know it’s [MAC address](https://en.wikipedia.org/wiki/MAC_address). I found mine using [this Random Nerd tutorial](https://randomnerdtutorials.com/get-change-esp32-esp8266-mac-address-arduino/). Each device gets its own key. Only registered MAC addresses can join the network.
 
-**Bonus:** According the [this article](https://www.surf.nl/iotroam-veilig-en-herleidbaar-aansluiten-van-alle-iot-apparaten), [SURF](https://www.surf.nl/en) is working on an IoT equivalent of [Eduroam]( https://eduroam.org/).
+**Bonus:** In [this article (in Dutch only)](https://www.surf.nl/iotroam-veilig-en-herleidbaar-aansluiten-van-alle-iot-apparaten), you can read how [SURF](https://www.surf.nl/en) is working on an IoT equivalent of [Eduroam]( https://eduroam.org/). The TU Delft campus solution may well become part of this larger initiative.
 
 ![FrankenThing]({{ "/assets/2023-05-31-FrankenThing.jpg" | absolute_url }})
 
