@@ -82,7 +82,7 @@ If you would like to reuse my solution, you can find it [here]( https://github.c
 
 * Get a more robust enclosure. [Thingiverse](https://www.thingiverse.com/search?q=esp32-cam&page=1&type=things&sort=relevant) has some nice examples to 3D print
 * Find a way to ensure that people don’t get accidentally photographed
-* Work on energy efficiency. If I upload a photo every minute, a 9V battery only lasts a couple of hours. My temporary fix was to use an adapted phone charger
+* Work on energy efficiency. If I upload a photo every minute, a 9V battery only lasts a couple of hours. Note that my ESP32-CAM had a built in voltage regulator to accept up to 12V. My temporary fix was to use an adapted phone charger, but [this link looks very userful](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources)
 * Find a way to alert a researcher automatically when the experiment isn’t going the way it should. I’m hoping the [‘IoT services through Cloud4Research’ event](https://www.eventbrite.nl/e/iot-services-through-cloud4research-tickets-624213448227) will provide some inspiration for this
 
 # Last, but not least
