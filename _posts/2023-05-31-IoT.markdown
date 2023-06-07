@@ -89,8 +89,8 @@ If you would like to reuse my solution, you can find it [here]( https://github.c
 
 I am very grateful to:
 * [Random Nerd](https://randomnerdtutorials.com/program-upload-code-esp32-cam/), [DroneBot Workshop](https://www.youtube.com/watch?v=visj0KE5VtY), [Random Nerd again](https://randomnerdtutorials.com/get-change-esp32-esp8266-mac-address-arduino/), [Random Nerd yet again](https://randomnerdtutorials.com/esp32-cam-http-post-php-arduino/) and [Espressif](https://github.com/espressif/arduino-esp32/blob/master/libraries/HTTPClient/examples/BasicHttpsClient/BasicHttpsClient.ino) for their excellent examples
-* [Michiel Fokke](https://nl.linkedin.com/in/michielfokke) and [Laurens Siebbeles]( https://www.tudelft.nl/tnw/over-faculteit/afdelingen/chemical-engineering/principal-scientists/laurens-siebbeles) for very useful problems
-* [Lolke Boonstra](https://www.tudelft.nl/en/staff/l.boonstra), [Fred Roeling](https://www.tudelft.nl/en/staff/f.q.c.roeling), [Mark Schenk](https://www.tudelft.nl/en/staff/m.m.a.schenk) and [Laurens Siebbeles]( https://www.tudelft.nl/tnw/over-faculteit/afdelingen/chemical-engineering/principal-scientists/laurens-siebbeles) for helpful discussions
+* [Michiel Fokke](https://nl.linkedin.com/in/michielfokke) and [Laurens Siebbeles]( https://www.tudelft.nl/tnw/over-faculteit/afdelingen/chemical-engineering/principal-scientists/laurens-siebbeles) for very useful problems and helpful discussions
+* [Lolke Boonstra](https://www.tudelft.nl/en/staff/l.boonstra), [Fred Roeling](https://www.tudelft.nl/en/staff/f.q.c.roeling) and [Mark Schenk](https://www.tudelft.nl/en/staff/m.m.a.schenk) for helpful discussions
 * [Niket Agrawal](https://www.tudelft.nl/en/staff/n.agrawal) for inspiring me to blog again
 
 If you have any suggestions to improve this solution, or you would like some help reproducing this solution for your research problem, or you have some other research and IT related problem we could work on together, [I would be delighted to hear from you](https://www.tudelft.nl/en/staff/s.e.branchett).
